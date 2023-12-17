@@ -30,25 +30,7 @@ const { title } = Astro.props;
     />
     {/* Title is props. */}
     <title>{title}</title>
-    <!-- ... -->    
-    <!-- 👀 add is:inline -->
-    <script is:inline>
-        const DARK_THEME_CLASS = "dark";
-        const COLOUR_MODE = "COLOUR_MODE";
-        const LIGHT_THEME = "LIGHT";
-        const DARK_THEME = "DARK";
-        const rootEl = document.documentElement;
-        const getInitialColourMode = () => {
-          /** ... */
-        }
-        const initialColourMode = getInitialColourMode();
-        // 👀 remove string type on mode 
-        const setInitialColourMode = (mode) => {
-           /** ... */
-        };
-        /** Set the initial colour mode as soon as the script is executed */
-        setInitialColourMode(initialColourMode);
-      </script>
+    
   </head>
   <body>
     <main>
