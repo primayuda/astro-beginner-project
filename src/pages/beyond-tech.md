@@ -1,5 +1,8 @@
 ---
-layout: "../layouts/Main.astro"
+layout: "../layouts/Blog.astro"
+poster: "/images/road-trip.avif"
+title: "Beyond Technology"
+subtitle: "Humans are multi-faceted. Beyond tech, I indulge in the following:"
 ---
 - 5X **Marathoner**
 - Olympic gold medalist
