@@ -4,11 +4,7 @@ import Cards from "../components/Cards.astro";
 
 const profilePicture = "/images/profile.jpeg";
 
-const blogs = await Astro.glob<{
-  poster: string;
-  title: string;
-  subtitle: string;
-}>("../pages/blogs/*.md");
+const blogs = await Astro.glob("../pages/blogs/*.md");
 
 ---
 
