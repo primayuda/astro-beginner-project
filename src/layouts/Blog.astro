@@ -4,13 +4,13 @@ import type { MarkdownLayoutProps } from "astro";
 // import the base layout: Main.astro
 import Main from "./Main.astro";
 
-// defined the Props type 
-type Props = MarkdownLayoutProps<{
-  // Define the expected frontmatter props here
-  title: string;
-  poster: string;
-  subtitle: string;
-}>;
+// // defined the Props type 
+// type Props = MarkdownLayoutProps<{
+//   // Define the expected frontmatter props here
+//   title: string;
+//   poster: string;
+//   subtitle: string;
+// }>;
 
 // get properties from the markdown frontmatter
 const { poster, title, subtitle } = Astro.props.frontmatter;

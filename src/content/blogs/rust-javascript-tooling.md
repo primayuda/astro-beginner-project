@@ -1,5 +1,4 @@
 ---
-layout: "../../layouts/Blog.astro"
 poster: "/images/adventure.avif"
 title: "Why Rust is the Future of Javascript Tooling"
 subtitle: "How to create fast, speedy developer experiences."
